@@ -1,0 +1,55 @@
+form.feedback{
+	margin:0;
+}
+table.feedback{
+	border:0;
+	margin-right:24px;
+}
+table.feedback td{
+	border:0;
+}
+td.feedbackprompt {
+	font-size:0.8em;
+	text-align:right;
+	padding-right:12px;
+	width:10em;
+	border:0;
+	vertical-align:top;
+}
+input.feedback, input.feedbackshort, textarea.feedback{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:1em;
+	padding:3px;
+	border:1px solid #273e26;
+}
+input.feedback[type=checkbox]{
+	border-style:none;
+}
+input.feedback{
+	width:300px;
+}
+input.feedbackshort{
+	width:120px;
+}
+textarea.feedback{
+	width:300px;
+	border:1px solid #273e26;
+}
+td.feedbackhead{
+	font-size:1em;
+	font-weight:bold;
+}
+a.feedback{
+	display:block;
+	padding:3px 9px 3px 9px;
+	color:#fff;
+	text-decoration:none;
+	background-color:#2b5729;
+}
+a.feedback:hover{
+	color:#fff;
+	/*background-color:#226820;*/
+	background-color:#508fc2;
+	text-decoration:none;
+}
